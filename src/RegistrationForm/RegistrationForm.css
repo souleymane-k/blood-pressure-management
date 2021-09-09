@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+  }
+.signUpForm-form{
+  position:relative;
+}
+
+.registrationForm{
+  width:50%;
+  height:500px;
+}
+.signUpForm-form{
+  
+  height:1000px;
+}
+
+
+input{
+width:100%;
+line-height: 2em;
+padding:0.5em;
+border-radius: 2px;
+}
+.btn{
+width:100%;
+line-height: 2em;
+padding:0.5em;
+border-radius: 2px;
+background-color: red;
+color: white;
+font-size: large;
+font-weight: 100px;
+cursor:pointer;
+}
+@media all and (max-width: 640px) {
+
+  .registrationForm{
+    width:50%;
+    height:500px;
+  }
+.btn{
+  width:100%;
+  line-height: 2em;
+  padding:0.5em;
+  border-radius: 2px;
+  margin:0 auto;
+  background-color: red;
+  color:white;
+  font-size: large;
+  font-weight: 80px;
+  cursor:pointer;
+}
+  }
